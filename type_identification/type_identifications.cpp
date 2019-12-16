@@ -12,7 +12,7 @@ int main()
     cout<<" Enter something:\n\n  ";
     getline(cin,in_text);
     int i=0;
-    test(in_text,i);
+    typeTest(in_text,i);
 
 return 0;
 }
