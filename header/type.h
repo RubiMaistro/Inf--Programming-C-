@@ -75,7 +75,7 @@ void test(string in_text,int &i)
         i++;
     }
     //If not enter ...
-    if(i == 0 )
+    if(i == 0 || (i==1 && in_text[i-1]==' '))
     {
         cout<<"  You didn't enter anything.\n  Try again:\n\n  ";
         getline(cin,in_text);
