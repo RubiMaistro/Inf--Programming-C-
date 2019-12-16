@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int test(string in_text,int &i)
+void typeTest(string in_text,int &i)
 {
     i=0;
         while( in_text[i] )
