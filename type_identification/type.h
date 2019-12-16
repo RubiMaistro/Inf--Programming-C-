@@ -81,6 +81,5 @@ int test(string in_text,int &i)
         getline(cin,in_text);
         test(in_text,i);
     }
-    return i;
 }
 
