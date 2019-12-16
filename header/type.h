@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int test(string in_text,int &i)
+void test(string in_text,int &i)
 {
     i=0;
         while( in_text[i] )
@@ -81,6 +81,4 @@ int test(string in_text,int &i)
         getline(cin,in_text);
         test(in_text,i);
     }
-    return i;
 }
-
