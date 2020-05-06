@@ -29,7 +29,6 @@ int main ()
         printf("\n");
     }
 
-
     for (int i = 0; i < nr; ++i)
         free (tm[i]);
 
